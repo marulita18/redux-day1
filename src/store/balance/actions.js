@@ -10,5 +10,4 @@ export const withdraw = (withdrawAmount) => ({
 
 export const reset = (resetAmount) => ({
   type: "balance/reset",
-  payload: resetAmount,
 });

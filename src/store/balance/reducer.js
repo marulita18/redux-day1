@@ -17,10 +17,7 @@ export default function reducer(state = initialState, action) {
       };
     }
     case "balance/reset": {
-      return {
-        ...state,
-        amount: initialState.amount,
-      };
+      return initialState;
     }
 
     default: {
